@@ -1,0 +1,35 @@
+/*
+Theme Name: OceanWP Child
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+@font-face {
+    font-family: 'Sailec-Regular';
+           src: url('fonts/Sailec-Regular.woff') format('woff'); /* Modern Browsers */
+          font-weight: normal;
+@font-face {
+    font-family: 'Sailec-Medium';          
+          src: url('fonts/Sailec-Medium.woff') format('woff'); /* Modern Browsers */
+          
+}
+@font-face {
+    font-family: 'Sailec-Bold';          
+          src: url('fonts/Sailec-Bold.woff') format('woff'); /* Modern Browsers */
+}
+
+2
+3
+4
+5
+	
+.avatar {
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+}
