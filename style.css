@@ -23,11 +23,6 @@ Version: 1.0
           src: url('fonts/Sailec-Bold.woff') format('woff'); /* Modern Browsers */
 }
 
-2
-3
-4
-5
-	
 .avatar {
 border-radius: 50%;
 -moz-border-radius: 50%;

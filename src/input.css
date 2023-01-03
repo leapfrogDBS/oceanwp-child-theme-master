@@ -2,3 +2,89 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .headingOne {
+        @apply text-5xl font-bold leading-tight lg:text-7xl;
+    }
+    .headingTwo {
+        @apply text-3xl font-bold leading-tight lg:text-6xl;
+    }
+    .headingThree {
+        @apply text-3xl font-bold leading-tight lg:text-5xl;
+    }
+    .headingFour {
+        @apply text-xl font-bold leading-none lg:text-2xl;
+    }
+    .headingFive {
+        @apply text-xl font-normal leading-normal lg:text-2xl;
+    }
+    .bodyText {
+        @apply text-base font-normal leading-normal text-[#8A8799] mb-12 lg:text-lg;
+    }
+    .subtitleOne {
+        @apply text-sm font-bold leading-normal lg:text-xl;
+    }
+    .subtitleTwo {
+        @apply text-sm font-normal leading-normal lg:text-xl;
+    }
+    .headingThree.light{
+        @apply font-light leading-snug;
+    }   
+
+    section {
+        @apply py-12 md:py-24;
+    }
+    section.container {
+        @apply mx-auto w-11/12 max-w-[1320px];;
+    }
+    .row {
+        @apply grid grid-cols-12 gap-5;
+    }
+    .col {
+        @apply col-span-12;
+    }
+
+    .student-card {
+        @apply rounded-xl h-96 relative shadow-md;
+    }
+    .student-card > *{
+        @apply text-white;
+    }
+    .student-card > div {
+        @apply absolute inset-0 rounded-xl flex flex-col items-center justify-center;
+    }
+    .student-card > .cover {
+        @apply opacity-100 hover:opacity-0 bg-blue bg-cover bg-center bg-blend-multiply ease-in-out duration-500;
+    }
+    .student-card > .reveal {
+        @apply opacity-0 hover:opacity-100 bg-blue ease-in-out duration-500;
+    }
+        
+    .price-card {
+        @apply rounded-xl;
+    }
+
+    .ctaButton {
+        @apply rounded-3xl text-base font-bold uppercase py-3 px-6 leading-none inline-block ;
+    }
+}
+
+
+html {
+    font-size: 16px !important;
+}
+
+
+#student-hero #cursor {
+    color: #fff !important;
+    border-right: 0.1em solid;
+    animation: caret 1s steps(1) infinite !important;
+    margin-left: 0.2em;
+}
+@keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+

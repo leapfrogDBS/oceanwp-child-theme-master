@@ -1,9 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  important: true,
   content: ["../**.php",
 "../**/**.php",],
   theme: {
-    extend: {},
+    extend: {
+      colors : {
+        cyan: '#46e9c9',
+        blue: '#36a6ff',
+        purple: '#8A4FFF',
+      },
+    },
   },
   plugins: [],
 }
+
+
