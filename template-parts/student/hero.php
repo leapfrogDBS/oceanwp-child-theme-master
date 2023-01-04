@@ -1,15 +1,29 @@
 <?php
+	$student_hero_title = get_field('student_hero_title');
+	$student_hero_subtitle = get_field('student_hero_subtitle');
+	$student_hero_button_text = get_field('student_hero_button_text');
+	$student_hero_button_link = get_field('student_hero_button_link');
     $typewritter_effect_headings = get_field('student_hero_title_words');
 ?>
 <section id="student-hero" class ="bg-gradient-to-br from-cyan via-blue to-purple pb-0">
     <div class="container">
         <div class="row">
             <div class="col lg:col-span-6 flex flex-col justify-center text-white">
-                <p class="headingOne">Feeling a little <span id="feeling" class="text-cyan"></span>?</p>
-                <p class="headingFive w-3/4">The weight of the world can get heavy - that's where we come in.</p>
-                <div>
-                    <a href="#" class="ctaButton bg-white text-blue">Get Started <img src="<?php echo get_stylesheet_directory_uri();?>/img/blue-arrow-button.svg"></a>
-                </div>
+                
+				<?php if($student_hero_title) { ?>
+					<p class="headingOne"><?php echo $student_hero_title; ?> <span id="feeling" class="text-cyan"></span>?</p>
+				<?php } ?>
+                
+				<?php if($student_hero_subtitle) { ?>
+					<p class="headingFive w-3/4"><?php echo $student_hero_subtitle; ?></p>
+				<?php } ?>
+                
+				<?php if($student_hero_button_text && $student_hero_button_link) { ?>
+					<div class="inline-block">
+						<a href="<?php echo $student_hero_button_link['url']; ?>" class="ctaButton bg-white text-blue"><?php echo $student_hero_button_text;?><img src="<?php echo get_stylesheet_directory_uri();?>/img/blue-arrow-button.svg"></a>
+					</div>
+				<?php } ?>
+
             </div>
             <div class="col lg:col-span-6">
                 <img src="<?php echo get_stylesheet_directory_uri();?>/img/hero-photo.png" class="w-full h-full">
@@ -19,6 +33,7 @@
 </section>
 
 <script defer type="text/javascript">
+	/*
 	document.addEventListener('DOMContentLoaded',function(event){
 	var typewritterHeadings = <?php echo json_encode((array)$typewritter_effect_headings); ?>;
 	var dataText = [];
@@ -66,6 +81,7 @@
 	// start the text animation
 	StartTextAnimation(0);
 	});
+	*/
 </script>
 
 

@@ -19,7 +19,7 @@
         @apply text-xl font-normal leading-normal lg:text-2xl;
     }
     .bodyText {
-        @apply text-base font-normal leading-normal text-[#8A8799] mb-12 lg:text-lg;
+        @apply text-base font-normal leading-normal mb-12 lg:text-lg;
     }
     .subtitleOne {
         @apply text-sm font-bold leading-normal lg:text-xl;
@@ -29,7 +29,11 @@
     }
     .headingThree.light{
         @apply font-light leading-snug;
-    }   
+    }
+    
+    .editor-content p {
+        @apply bodyText text-[#8A8799];
+    }
 
     section {
         @apply py-12 md:py-24;
@@ -54,18 +58,18 @@
         @apply absolute inset-0 rounded-xl flex flex-col items-center justify-center;
     }
     .student-card > .cover {
-        @apply opacity-100 hover:opacity-0 bg-blue bg-cover bg-center bg-blend-multiply ease-in-out duration-500;
+        @apply opacity-100 hover:opacity-0 bg-cover bg-center bg-blend-multiply ease-in-out duration-500;
     }
     .student-card > .reveal {
         @apply opacity-0 hover:opacity-100 bg-blue ease-in-out duration-500;
     }
         
     .price-card {
-        @apply rounded-xl;
+        @apply rounded-xl col-span-6 border-2 border-solid border-blue text-blue bg-white text-center flex flex-col items-center justify-center py-12 cursor-pointer hover:scale-105 ease-in-out duration-200 active:scale-95;
     }
 
     .ctaButton {
-        @apply rounded-3xl text-base font-bold uppercase py-3 px-6 leading-none inline-block ;
+        @apply rounded-3xl text-base font-bold uppercase py-3 px-6 leading-none inline-flex items-center justify-center gap-x-4 ;
     }
 }
 

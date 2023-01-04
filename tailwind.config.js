@@ -9,6 +9,7 @@ module.exports = {
         cyan: '#46e9c9',
         blue: '#36a6ff',
         purple: '#8A4FFF',
+        charcoal: '#413E65',
       },
     },
   },
