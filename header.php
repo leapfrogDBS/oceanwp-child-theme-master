@@ -7,7 +7,7 @@
 
 ?>
 <!DOCTYPE html>
-<html class="<?php echo esc_attr( oceanwp_html_classes() ); ?>" <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
@@ -17,6 +17,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<main id="main" class="site-main clr"<?php oceanwp_schema_markup( 'main' ); ?> role="main">
+	<main id="main" class="site-main clr" role="main">
 
 	

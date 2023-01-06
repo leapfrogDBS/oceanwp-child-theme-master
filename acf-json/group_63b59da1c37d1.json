@@ -1,6 +1,6 @@
 {
     "key": "group_63b59da1c37d1",
-    "title": "Student - What's On",
+    "title": "What's On",
     "fields": [
         {
             "key": "field_63b59dafa6eca",
@@ -78,9 +78,9 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "options_page",
                 "operator": "==",
-                "value": "11364"
+                "value": "acf-options"
             }
         ]
     ],
@@ -93,5 +93,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1672846840
+    "modified": 1672934527
 }

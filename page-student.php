@@ -9,7 +9,7 @@ get_header(); ?>
         include(locate_template('template-parts/student/intro.php'));
         include(locate_template('template-parts/student/cards.php'));
         include(locate_template('template-parts/student/whats-on.php'));
-        include(locate_template('template-parts/student/sign-up.php'));
+        include(locate_template('template-parts/student/sign-up.php')); 
         include(locate_template('template-parts/student/testimonials.php'));
     ?>
 	

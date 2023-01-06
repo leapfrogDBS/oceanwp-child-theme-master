@@ -1,6 +1,6 @@
 {
     "key": "group_63b59f8a4426f",
-    "title": "Student - Register",
+    "title": "Register",
     "fields": [
         {
             "key": "field_63b59f96628df",
@@ -200,9 +200,9 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "options_page",
                 "operator": "==",
-                "value": "11364"
+                "value": "acf-options"
             }
         ]
     ],
@@ -215,5 +215,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1672848282
+    "modified": 1672934649
 }

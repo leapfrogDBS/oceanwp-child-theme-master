@@ -517,15 +517,24 @@ $fields[] = new PMProRH_Field (
 add_action( 'init', 'my_pmprorh_init' );
 
 
-function add_custom_scripts() {
-	wp_enqueue_script('app-js', get_stylesheet_directory_uri() . '/js/app.js');
-	wp_enqueue_style('tailwind-css', get_stylesheet_directory_uri() . '/css/tailwind.css');
-	wp_enqueue_script('splide-js', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js');
-	wp_enqueue_script('splide-grid-js', 'https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-grid@0.4.1/dist/js/splide-extension-grid.min.js');
-	wp_enqueue_style('splide-css', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css');	
+/**
+ * Enqueue scripts and styles.
+ */
+function student_template_scripts() {
+	if ( is_page( 'Student' ) ) {
+		wp_enqueue_script('app-js', get_stylesheet_directory_uri() . '/js/app.js');
+		wp_enqueue_style('tailwind-css', get_stylesheet_directory_uri() . '/css/tailwind.css');
+		wp_enqueue_script('splide-js', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js');
+		wp_enqueue_style('splide-css', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css');	
+		
+	}
+  }
+add_action( 'wp_enqueue_scripts', 'student_template_scripts' );
+
+
+if( function_exists('acf_add_options_page') ) {
+    
+    acf_add_options_page();
+    
 }
-	
-add_action( 'wp_enqueue_scripts', 'add_custom_scripts' );
-
-
 
