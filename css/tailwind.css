@@ -973,6 +973,14 @@ section {
   margin-bottom: 4rem !important;
 }
 
+.mb-52 {
+  margin-bottom: 13rem !important;
+}
+
+.mb-64 {
+  margin-bottom: 16rem !important;
+}
+
 .block {
   display: block !important;
 }
@@ -1594,6 +1602,10 @@ html {
 @media (min-width: 1280px) {
   .xl\:col-span-6 {
     grid-column: span 6 / span 6 !important;
+  }
+
+  .xl\:mt-24 {
+    margin-top: 6rem !important;
   }
 
   .xl\:pl-\[16\.6\%\] {
