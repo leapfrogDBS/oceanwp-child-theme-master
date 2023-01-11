@@ -23,7 +23,7 @@ $student_signup_plan_two_bottom_text = get_field('student_signup_plan_two_bottom
                 <?php } ?>
                 
                 <?php if($student_signup_subtitle) { ?>
-                    <p class="bodyText text-[#8A8799] sm:text-center"><?php echo $student_signup_subtitle; ?></p>
+                    <p class="bodyText text-[#8A8799] text-center"><?php echo $student_signup_subtitle; ?></p>
                 <?php } ?>
 
             </div>

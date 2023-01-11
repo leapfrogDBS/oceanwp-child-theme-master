@@ -17,7 +17,7 @@
                     <div class="cover" style="background-image: url('<?php echo $student_card_background_image['url']; ?>');">
                         <p class="headingFour"><?php echo $student_card_title; ?></p>
                     </div>
-                    <div class="reveal">
+                    <div class="reveal px-12 text-center">
                         <p class="headingFour"><?php echo $student_card_title; ?></p>
                         <p class="bodyText text-white"><?php echo $student_card_subtitle; ?></p>
                         <p class="subtitleOne uppercase leading-[0] inline-flex items-baseline justify-center gap-x-4 mb-6">Learn More<img src="<?php echo get_stylesheet_directory_uri();?>/img/white-arrow-button.svg"></p>
@@ -62,7 +62,7 @@
                         <!-- Content -->
                         <div class="accordion-content pt-0 overflow-hidden" style="max-height: 0px">
                             <p class="bodyText text-white"><?php echo $student_card_subtitle; ?></p>                       
-                            <a href="<?php echo $student_card_link['url']; ?>" class="text-base font-bold font-sailec-bold text-white uppercase leading-[0] inline-flex items-baseline justify-center gap-x-4 mb-6">Learn More<img src="<?php echo get_stylesheet_directory_uri();?>/img/white-arrow-button.svg"></a>
+                            <a href="<?php echo $student_card_link['url']; ?>" class="text-base font-normal  text-white uppercase leading-[0] inline-flex items-baseline justify-center gap-x-4 mb-6">Learn More<img src="<?php echo get_stylesheet_directory_uri();?>/img/white-arrow-button.svg"></a>
                         </div>
                     </div> 
                    
