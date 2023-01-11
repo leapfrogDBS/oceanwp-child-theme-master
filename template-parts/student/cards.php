@@ -19,7 +19,7 @@
                     </div>
                     <div class="reveal px-12 text-center">
                         <p class="headingFour"><?php echo $student_card_title; ?></p>
-                        <p class="bodyText text-white"><?php echo $student_card_subtitle; ?></p>
+                        <p class="bodyText text-white mb-6"><?php echo $student_card_subtitle; ?></p>
                         <p class="subtitleOne uppercase leading-[0] inline-flex items-baseline justify-center gap-x-4 mb-6">Learn More<img src="<?php echo get_stylesheet_directory_uri();?>/img/white-arrow-button.svg"></p>
                     </div>    
                 </a>

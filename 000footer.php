@@ -79,5 +79,6 @@ if ( 'fullscreen' === oceanwp_mobile_menu_style() ) {
 ?>
 
 <?php wp_footer(); ?>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@latest/lib/typed.min.js"></script>
 </body>
 </html>

@@ -38,7 +38,7 @@
         @apply bodyText text-[#8A8799];
     }
 
-    section {
+    #main section {
         @apply py-14 lg:py-24;
     }
     .container2 {
@@ -52,6 +52,12 @@
     }
     .column {
         @apply col-span-12 mb-0; 
+    }
+    .page-header {
+        @apply hidden;
+    }
+    #main #content-wrap {
+        @apply max-w-none w-full p-0;
     }
 
     .student-card {
@@ -76,6 +82,7 @@
     .ctaButton {
         @apply  rounded-3xl text-base font-normal uppercase py-4 px-6 leading-[0] inline-flex items-baseline justify-center gap-x-5 ;
     }
+    
 }
 
 @font-face {
