@@ -2,7 +2,6 @@
 	$student_hero_title = get_field('student_hero_title');
 	$student_hero_subtitle = get_field('student_hero_subtitle');
 	$student_hero_button_text = get_field('student_hero_button_text');
-	$student_hero_button_link = get_field('student_hero_button_link');
 	$typewritter_effect_headings = get_field('student_hero_title_words');
 ?>
 <section id="student-hero" class ="bg-gradient-to-br from-cyan via-blue to-purple pb-0 relative">
@@ -16,9 +15,9 @@
                 <p class="headingFive mb-9 lg:w-3/4 lg:mb-14"><?php echo $student_hero_subtitle; ?></p>
               <?php } ?>
                       
-              <?php if($student_hero_button_text && $student_hero_button_link) { ?>
+              <?php if($student_hero_button_text) { ?>
                 <div class="inline-block">
-                  <a href="<?php echo $student_hero_button_link['url']; ?>" class="ctaButton bg-white text-blue"><?php echo $student_hero_button_text;?><img src="<?php echo get_stylesheet_directory_uri();?>/img/blue-arrow-button.svg"></a>
+                  <a href="#sign-up" class="ctaButton bg-white text-blue"><?php echo $student_hero_button_text;?><img src="<?php echo get_stylesheet_directory_uri();?>/img/blue-arrow-button.svg"></a>
                 </div>
               <?php } ?>
 

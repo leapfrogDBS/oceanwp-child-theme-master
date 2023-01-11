@@ -13,7 +13,7 @@ $student_signup_plan_two_price = get_field('student_signup_plan_two_price', 'opt
 $student_signup_plan_two_bottom_text = get_field('student_signup_plan_two_bottom_text', 'option');
 ?>
 
-<section class="bg-white lg:pt-36">
+<section id="sign-up" class="bg-white lg:pt-36">
     <div class="container2">
         <div class="row">
             <div class="column">
