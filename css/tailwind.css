@@ -808,8 +808,14 @@ video {
 }
 
 .student-card > .reveal {
+  justify-content: space-between;
   --tw-bg-opacity: 1;
   background-color: rgb(54 166 255 / var(--tw-bg-opacity));
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  text-align: center;
   opacity: 0;
   transition-duration: 500ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -951,6 +957,10 @@ video {
   margin: auto !important;
 }
 
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem !important;
 }
@@ -965,10 +975,6 @@ video {
 
 .mb-9 {
   margin-bottom: 2.25rem !important;
-}
-
-.mb-0 {
-  margin-bottom: 0px !important;
 }
 
 .mt-12 {
@@ -1219,14 +1225,14 @@ video {
           background-clip: text !important;
 }
 
-.px-12 {
-  padding-left: 3rem !important;
-  padding-right: 3rem !important;
-}
-
 .px-5 {
   padding-left: 1.25rem !important;
   padding-right: 1.25rem !important;
+}
+
+.px-12 {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
 }
 
 .pt-6 {

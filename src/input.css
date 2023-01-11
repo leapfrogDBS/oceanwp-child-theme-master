@@ -73,7 +73,7 @@
         @apply opacity-100 hover:opacity-0 bg-cover bg-center bg-blend-multiply ease-in-out duration-500;
     }
     .student-card > .reveal {
-        @apply opacity-0 hover:opacity-100 bg-blue ease-in-out duration-500;
+        @apply opacity-0 hover:opacity-100 bg-blue ease-in-out duration-500 px-12 py-14 text-center justify-between ;
     }
         
     .price-card {
