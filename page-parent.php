@@ -22,7 +22,7 @@ get_header(); ?>
             if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'single' ) ) {
 ?>
 	<?php 
-        include(locate_template('template-parts/student/hero.php'));
+        include(locate_template('template-parts/parent/hero.php'));
         
     ?>
 
