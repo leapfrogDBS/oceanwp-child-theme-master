@@ -521,7 +521,7 @@ add_action( 'init', 'my_pmprorh_init' );
  * Enqueue scripts and styles.
  */
 function student_template_scripts() {
-	if ( is_page( 'Student' ) ) {
+	if ( is_page( 'Student' ) || is_page( 'Parent' ) ) {
 		wp_enqueue_script('app-js', get_stylesheet_directory_uri() . '/js/app.js');
 		wp_enqueue_style('tailwind-css', get_stylesheet_directory_uri() . '/css/tailwind.css');
 		wp_enqueue_script('splide-js', 'https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js');
