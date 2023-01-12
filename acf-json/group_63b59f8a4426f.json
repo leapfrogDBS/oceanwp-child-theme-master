@@ -119,6 +119,36 @@
             "maxlength": ""
         },
         {
+            "key": "field_63bff92d149e0",
+            "label": "Plan One Memebership Link",
+            "name": "student_signup_plan_one_memebership_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_63bff9c13dd9a",
+            "label": "Plan One Gift Link",
+            "name": "student_signup_plan_one_gift_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
             "key": "field_63b5a2ea80612",
             "label": "Plan TwoTitle",
             "name": "student_signup_plan_two_title",
@@ -195,6 +225,36 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_63bff9e63e6ec",
+            "label": "Plan Two Memebership Link",
+            "name": "student_signup_plan_two_memebership_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_63bffa04810a1",
+            "label": "Plan Two Gift Link",
+            "name": "student_signup_plan_two_gift_link",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
         }
     ],
     "location": [
@@ -215,5 +275,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1672934649
+    "modified": 1673525828
 }

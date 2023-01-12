@@ -94,7 +94,7 @@
 
 
     .ctaButton {
-        @apply  rounded-3xl text-base font-sailec-bold uppercase py-4 px-6 leading-[0] inline-flex items-baseline justify-center gap-x-5 ;
+        @apply cursor-pointer rounded-3xl text-base font-sailec-bold uppercase py-4 px-6 leading-[0] inline-flex items-baseline justify-center gap-x-5 ;
     }
     
 }
