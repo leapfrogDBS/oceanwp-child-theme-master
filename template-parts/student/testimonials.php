@@ -28,7 +28,7 @@
             </div>
             <div class="column lg:col-span-4 flex flex-col justify-end">
                 <img src="<?php echo get_stylesheet_directory_uri();?>/img/testimonial-photo.png" class="w-full h-auto hidden lg:block">
-                <img src="<?php echo get_stylesheet_directory_uri();?>/img/testimonial-mobile.png" class="w-auto h-[50%] right-0 bottom-0 absolute lg:hidden">
+                <img src="<?php echo get_stylesheet_directory_uri();?>/img/testimonial-mobile.png" class="w-auto h-[40%] right-0 bottom-0 absolute lg:hidden">
             </div>
         </div>
     </div>

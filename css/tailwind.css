@@ -1093,6 +1093,10 @@ video {
   height: 50% !important;
 }
 
+.h-\[40\%\] {
+  height: 40% !important;
+}
+
 .w-full {
   width: 100% !important;
 }

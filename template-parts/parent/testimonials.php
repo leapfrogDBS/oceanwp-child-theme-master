@@ -6,7 +6,7 @@
                 
                 <?php if(have_rows('student_testimonial', 'option')) { ?>
                
-                    <div class="splide mb-12 lg:mb-32" id="testimonial-slider">
+                    <div class="splide mb-16 lg:mb-32" id="testimonial-slider">
                         <div class="splide__track">
                             <ul class="splide__list"> 
                                 <?php while( have_rows('student_testimonial', 'option') ) : the_row(); 
