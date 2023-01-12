@@ -1,5 +1,5 @@
 
-<section id="student-cards" class="bg-white hidden lg:block lg:pt-14 lg:pb-48">
+<section id="parent-cards" class="bg-white hidden lg:block lg:pt-14 lg:pb-48">
     <div class="container2">
         <div class="row text-white gap-6">
             <?php
@@ -44,9 +44,9 @@
             <div class="column">
 
             <?php
-            if(have_rows('student_cards')) {
+            if(have_rows('student_cards', 'option')) {
 
-                while( have_rows('student_cards') ) : the_row();
+                while( have_rows('student_cards', 'option') ) : the_row();
                     $student_card_title = get_sub_field('student_card_title');
                     $student_card_subtitle = get_sub_field('student_card_subtitle');
                     $student_card_link = get_sub_field('student_card_link');
@@ -93,7 +93,7 @@
         header.parentElement.classList.add("text-white");
         header.querySelector(".fas").classList.remove("fa-plus");
         header.querySelector(".fas").classList.add("fa-minus");
-        header.parentElement.classList.add("bg-blue");
+        header.parentElement.classList.add("bg-purple");
         
         } else {
         header.parentElement.classList.remove("text-white");
@@ -101,7 +101,7 @@
         accordionContent.style.maxHeight = `0px`;
         header.querySelector(".fas").classList.add("fa-plus");
         header.querySelector(".fas").classList.remove("fa-minus");
-        header.parentElement.classList.remove("bg-blue");
+        header.parentElement.classList.remove("bg-purple");
         
         }
     });

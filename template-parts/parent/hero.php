@@ -9,9 +9,9 @@
 <section id="student-hero" class ="bg-gradient-to-tr from-cyan via-blue to-purple pb-0 relative">
     <div class="container3 lg:mt-20">
         <div class="row">
-            <div class="column flex flex-col text-white z-50 mb-8 px-12 md:px-[8%] lg:pr-0 lg:pl-[16.6%] lg:mb-24 lg:mt-20 lg:col-span-8 lg:col-start-1 lg:row-start-1">
+            <div class="column flex flex-col text-white z-50 mb-20 px-12 md:px-[8%] lg:pr-0 lg:pl-[16.6%] lg:mb-24 lg:mt-20 lg:col-span-8 lg:col-start-1 lg:row-start-1">
                 
-              <p class="headingOne mb-8 lg:mb-14"><span class="">We take </span><span id="feeling" class="text-cyan txt-rotate" data-period="2000"></span><br> seriously</p>
+              <p class="headingOne mb-8 lg:mb-14">We take <span class="xl:hidden"><br></span><span id="feeling" class="text-cyan txt-rotate" data-period="2000"></span><br> seriously</p>
           
               <?php if($student_hero_subtitle) { ?>
                 <p class="headingFive mb-9 lg:w-3/4 lg:mb-14 lg:w-2/3"><?php echo $student_hero_subtitle; ?></p>
@@ -19,7 +19,7 @@
                       
               <?php if($student_hero_button_text) { ?>
                 <div class="inline-block">
-                  <a href="#sign-up" class="ctaButton bg-white text-blue"><?php echo $student_hero_button_text;?><img src="<?php echo get_stylesheet_directory_uri();?>/img/blue-arrow-button.svg"></a>
+                  <a href="#sign-up" class="ctaButton bg-white text-purple"><?php echo $student_hero_button_text;?><img src="<?php echo get_stylesheet_directory_uri();?>/img/purple-arrow-button.svg"></a>
                 </div>
               <?php } ?>
 
@@ -98,5 +98,6 @@ window.onload = function() {
 
 	
 </script>
+
 
 

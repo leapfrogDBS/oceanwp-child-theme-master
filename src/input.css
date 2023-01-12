@@ -70,15 +70,29 @@
         @apply absolute inset-0 rounded-xl flex flex-col items-center justify-center;
     }
     .student-card > .cover {
-        @apply opacity-100 hover:opacity-0 bg-cover bg-center bg-blend-multiply ease-in-out duration-500;
+        @apply opacity-100 hover:opacity-0 bg-cover bg-center bg-blend-multiply ease-in-out duration-500 bg-blend-luminosity;
     }
     .student-card > .reveal {
-        @apply opacity-0 hover:opacity-100 bg-blue ease-in-out duration-500 px-12 py-14 text-center justify-between ;
+        @apply opacity-0 hover:opacity-100 ease-in-out duration-500 px-12 py-14 text-center justify-between ;
     }
-        
+    #student-cards .student-card > .cover, #student-cards .student-card > .reveal {
+        @apply bg-blue;
+    }
+    #parent-cards .student-card .cover, #parent-cards .student-card > .reveal {
+        @apply bg-purple;
+    }  
+
     .price-card {
-        @apply rounded-3xl border-2 border-solid border-blue text-blue bg-white text-center flex flex-col items-center justify-between py-12 px-10 cursor-pointer scale-100 hover:scale-105 ease-in-out duration-200 active:scale-95 col-span-10 md:col-span-6;
+        @apply rounded-3xl border-2 border-solid  bg-white text-center flex flex-col items-center justify-between py-12 px-10 cursor-pointer scale-100 hover:scale-105 ease-in-out duration-200 active:scale-95 col-span-10 md:col-span-6;
     }
+    #student-sign-up .price-card {
+        @apply border-blue text-blue;
+    }
+    #parent-sign-up .price-card {
+        @apply border-purple text-purple;
+    }
+
+
     .ctaButton {
         @apply  rounded-3xl text-base font-sailec-bold uppercase py-4 px-6 leading-[0] inline-flex items-baseline justify-center gap-x-5 ;
     }
@@ -134,9 +148,12 @@ html {
     transform: scale(1) !important;  
   }
 
-#whats-on-section {
+#student-whats-on-section {
   background-image: url('../img/bg-whats-on2.png');
 }
+#parent-whats-on-section {
+    background-image: url('../img/parent/events-bg.png');
+  }
 
 @media only screen and (max-width: 580px) {
     #whats-on-section {

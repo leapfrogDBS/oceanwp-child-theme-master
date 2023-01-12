@@ -1,6 +1,6 @@
 {
     "key": "group_63b58edc658e6",
-    "title": "Student - Introduction",
+    "title": "Introduction",
     "fields": [
         {
             "key": "field_63b58eec10af9",
@@ -48,6 +48,13 @@
                 "operator": "==",
                 "value": "11364"
             }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "11435"
+            }
         ]
     ],
     "menu_order": 0,
@@ -59,5 +66,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1672843045
+    "modified": 1673516820
 }

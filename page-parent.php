@@ -23,6 +23,11 @@ get_header(); ?>
 ?>
 	<?php 
         include(locate_template('template-parts/parent/hero.php'));
+        include(locate_template('template-parts/parent/intro.php'));
+        include(locate_template('template-parts/parent/cards.php'));
+        include(locate_template('template-parts/parent/whats-on.php'));
+        include(locate_template('template-parts/parent/sign-up.php')); 
+        include(locate_template('template-parts/parent/testimonials.php'));
         
     ?>
 
