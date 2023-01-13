@@ -2,13 +2,13 @@
 $student_signup_title = get_field('student_signup_title', 'option');
 $student_signup_subtitle = get_field('student_signup_subtitle', 'option');
 
-$student_signup_plan_one_title = get_field('student_signup_plan_one_title', 'option');
+$student_signup_plan_one_title = get_field('student_signup_plan_one_title_parent', 'option');
 $student_signup_plan_one_subtitle = get_field('student_signup_plan_one_subtitle', 'option');
 $student_signup_plan_one_price = get_field('student_signup_plan_one_price', 'option');
 $student_signup_plan_one_bottom_text = get_field('student_signup_plan_one_bottom_text', 'option');
 $student_signup_plan_one_gift_link = get_field('student_signup_plan_one_gift_link', 'option');
 
-$student_signup_plan_two_title = get_field('student_signup_plan_two_title', 'option');
+$student_signup_plan_two_title = get_field('student_signup_plan_two_title_parent', 'option');
 $student_signup_plan_two_subtitle = get_field('student_signup_plan_two_subtitle', 'option');
 $student_signup_plan_two_price = get_field('student_signup_plan_two_price', 'option');
 $student_signup_plan_two_bottom_text = get_field('student_signup_plan_two_bottom_text', 'option');

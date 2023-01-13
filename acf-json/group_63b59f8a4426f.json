@@ -42,8 +42,27 @@
         },
         {
             "key": "field_63b5a011628e1",
-            "label": "Plan One Title",
+            "label": "Plan One Title (Student Page)",
             "name": "student_signup_plan_one_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_63c152db1b472",
+            "label": "Plan One Title (Parent Page)",
+            "name": "student_signup_plan_one_title_parent",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -150,8 +169,27 @@
         },
         {
             "key": "field_63b5a2ea80612",
-            "label": "Plan TwoTitle",
+            "label": "Plan TwoTitle (Student Page)",
             "name": "student_signup_plan_two_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_63c153034ba45",
+            "label": "Plan TwoTitle (Parent Page)",
+            "name": "student_signup_plan_two_title_parent",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -275,5 +313,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1673525828
+    "modified": 1673614099
 }
