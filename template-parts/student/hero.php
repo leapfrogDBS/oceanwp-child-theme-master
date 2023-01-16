@@ -17,7 +17,7 @@
                       
               <?php if($student_hero_button_text) { ?>
                 <div class="inline-block">
-                  <a href="#student-sign-up" class="ctaButton bg-white text-blue"><?php echo $student_hero_button_text;?><img src="<?php echo get_stylesheet_directory_uri();?>/img/blue-arrow-button.svg"></a>
+                  <a href="#student-sign-up" class="elementor-animation-pulse ctaButton bg-white text-blue"><?php echo $student_hero_button_text;?><img src="<?php echo get_stylesheet_directory_uri();?>/img/blue-arrow-button.svg"></a>
                 </div>
               <?php } ?>
 

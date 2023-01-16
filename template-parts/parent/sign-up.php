@@ -52,7 +52,7 @@ $student_signup_plan_two_gift_link = get_field('student_signup_plan_two_gift_lin
         <div class="row mt-12">
             <div class="column text-center">
             <div class="inline-block text-center">
-                    <div onClick="processForm()" class="ctaButton bg-gradient-to-r from-cyan via-blue to-purple text-white">Sign up now<img src="<?php echo get_stylesheet_directory_uri();?>/img/white-arrow-button.svg"></div>
+                    <div onClick="processForm()" class="elementor-animation-pulse ctaButton bg-gradient-to-r from-cyan via-blue to-purple text-white">Sign up now<img src="<?php echo get_stylesheet_directory_uri();?>/img/white-arrow-button.svg"></div>
                 </div>
             </div>
         </div>
