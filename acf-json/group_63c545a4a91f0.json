@@ -1,11 +1,11 @@
 {
-    "key": "group_63b6f563d2153",
-    "title": "Student Testimonials",
+    "key": "group_63c545a4a91f0",
+    "title": "Parent Testimonials",
     "fields": [
         {
-            "key": "field_63b6f5690e45f",
+            "key": "field_63c545a4ab940",
             "label": "Testimonial",
-            "name": "student_testimonial",
+            "name": "parent_testimonial",
             "type": "repeater",
             "instructions": "",
             "required": 0,
@@ -22,9 +22,9 @@
             "button_label": "",
             "sub_fields": [
                 {
-                    "key": "field_63b6f57f0e460",
+                    "key": "field_63c545a4acb6d",
                     "label": "Review",
-                    "name": "student_review",
+                    "name": "parent_review",
                     "type": "textarea",
                     "instructions": "",
                     "required": 0,
@@ -41,9 +41,9 @@
                     "new_lines": ""
                 },
                 {
-                    "key": "field_63b6f5880e461",
+                    "key": "field_63c545a4acba6",
                     "label": "Written by",
-                    "name": "student_written_by",
+                    "name": "parent_written_by",
                     "type": "text",
                     "instructions": "",
                     "required": 0,
@@ -67,7 +67,7 @@
             {
                 "param": "page",
                 "operator": "==",
-                "value": "11364"
+                "value": "11435"
             }
         ]
     ],
@@ -80,5 +80,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1673872800
+    "modified": 1673872845
 }

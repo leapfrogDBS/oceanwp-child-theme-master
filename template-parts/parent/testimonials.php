@@ -4,18 +4,18 @@
             <div class="column lg:col-span-8 text-white pt-12 px-12 md:px-[8%] lg:pr-0 lg:pl-[16.6%] ">
                 <p class="headingFour uppercase mb-12">Our members say...</p>
                 
-                <?php if(have_rows('student_testimonial', 'option')) { ?>
+                <?php if(have_rows('parent_testimonial')) { ?>
                
                     <div class="splide mb-16 lg:mb-32" id="testimonial-slider">
                         <div class="splide__track">
                             <ul class="splide__list"> 
-                                <?php while( have_rows('student_testimonial', 'option') ) : the_row(); 
-                                    $student_review = get_sub_field('student_review');
-                                    $student_written_by = get_sub_field('student_written_by');
+                                <?php while( have_rows('parent_testimonial') ) : the_row(); 
+                                    $parent_review = get_sub_field('parent_review');
+                                    $parent_written_by = get_sub_field('parent_written_by');
                                     ?>
                                     <li class="splide__slide"> 
-                                        <p class="headingThree light mb-12 text-[40px] leading-tight">“<?php echo $student_review; ?>”</p>
-                                        <p class="headingFive w-1/2"><?php echo $student_written_by; ?></p>
+                                        <p class="headingThree light mb-12 text-[40px] leading-tight">“<?php echo $parent_review; ?>”</p>
+                                        <p class="headingFive w-1/2"><?php echo $parent_written_by; ?></p>
                                     </li>
                                 <?php endwhile; ?>
                                 

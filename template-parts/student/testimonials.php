@@ -4,12 +4,12 @@
             <div class="column lg:col-span-8 text-white pt-12 lg:pr-12  ">
                 <p class="headingFour uppercase mb-12">Our members say...</p>
                 
-                <?php if(have_rows('student_testimonial', 'option')) { ?>
+                <?php if(have_rows('student_testimonial')) { ?>
                
                     <div class="splide mb-64" id="testimonial-slider">
                         <div class="splide__track">
                             <ul class="splide__list"> 
-                                <?php while( have_rows('student_testimonial', 'option') ) : the_row(); 
+                                <?php while( have_rows('student_testimonial') ) : the_row(); 
                                     $student_review = get_sub_field('student_review');
                                     $student_written_by = get_sub_field('student_written_by');
                                     ?>
