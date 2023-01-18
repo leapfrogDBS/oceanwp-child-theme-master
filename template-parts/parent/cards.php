@@ -7,7 +7,7 @@
 
                 while( have_rows('parent_cards') ) : the_row();
                     
-                    $student_card_background_image = get_sub_field('parent_card_background_image');
+                    $parent_card_background_image = get_sub_field('parent_card_background_image');
                     $parent_card_title = get_sub_field('parent_card_title');
                     $parent_card_subtitle = get_sub_field('parent_card_subtitle');
                     $parent_card_link = get_sub_field('parent_card_link');
