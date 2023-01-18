@@ -3,9 +3,9 @@
     <div class="container2">
         <div class="row text-white gap-6">
             <?php
-            if(have_rows('student_cards', 'option')) {
+            if(have_rows('parent_cards')) {
 
-                while( have_rows('student_cards', 'option') ) : the_row();
+                while( have_rows('parent_cards') ) : the_row();
                     
                     $student_card_background_image = get_sub_field('student_card_background_image');
                     $student_card_title = get_sub_field('student_card_title');
@@ -44,9 +44,9 @@
             <div class="column">
 
             <?php
-            if(have_rows('student_cards', 'option')) {
+            if(have_rows('parent_cards')) {
 
-                while( have_rows('student_cards', 'option') ) : the_row();
+                while( have_rows('parent_cards') ) : the_row();
                     $student_card_title = get_sub_field('student_card_title');
                     $student_card_subtitle = get_sub_field('student_card_subtitle');
                     $student_card_link = get_sub_field('student_card_link');

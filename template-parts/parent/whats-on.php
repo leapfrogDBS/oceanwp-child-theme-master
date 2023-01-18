@@ -1,8 +1,8 @@
 <?php
-$student_whats_on_title = get_field('student_whats_on_title', 'option');
-$student_whats_on_subtitle = get_field('student_whats_on_subtitle', 'option');
-$student_whats_on_button_text = get_field('student_whats_on_button_text', 'option');
-$student_whats_on_button_link = get_field('student_whats_on_button_link', 'option');
+$student_whats_on_title = get_field('student_whats_on_title');
+$student_whats_on_subtitle = get_field('student_whats_on_subtitle');
+$student_whats_on_button_text = get_field('student_whats_on_button_text');
+$student_whats_on_button_link = get_field('student_whats_on_button_link');
 ?>
 
 

@@ -1,18 +1,18 @@
 <?php
-$student_signup_title = get_field('student_signup_title', 'option');
-$student_signup_subtitle = get_field('student_signup_subtitle', 'option');
+$student_signup_title = get_field('student_signup_title');
+$student_signup_subtitle = get_field('student_signup_subtitle');
 
-$student_signup_plan_one_title = get_field('student_signup_plan_one_title', 'option');
-$student_signup_plan_one_subtitle = get_field('student_signup_plan_one_subtitle', 'option');
-$student_signup_plan_one_price = get_field('student_signup_plan_one_price', 'option');
-$student_signup_plan_one_bottom_text = get_field('student_signup_plan_one_bottom_text', 'option');
-$student_signup_plan_one_membership_link = get_field('student_signup_plan_one_memebership_link', 'option');
+$student_signup_plan_one_title = get_field('student_signup_plan_one_title');
+$student_signup_plan_one_subtitle = get_field('student_signup_plan_one_subtitle');
+$student_signup_plan_one_price = get_field('student_signup_plan_one_price');
+$student_signup_plan_one_bottom_text = get_field('student_signup_plan_one_bottom_text');
+$student_signup_plan_one_membership_link = get_field('student_signup_plan_one_memebership_link');
 
-$student_signup_plan_two_title = get_field('student_signup_plan_two_title', 'option');
-$student_signup_plan_two_subtitle = get_field('student_signup_plan_two_subtitle', 'option');
-$student_signup_plan_two_price = get_field('student_signup_plan_two_price', 'option');
-$student_signup_plan_two_bottom_text = get_field('student_signup_plan_two_bottom_text', 'option');
-$student_signup_plan_two_membership_link = get_field('student_signup_plan_two_memebership_link', 'option');
+$student_signup_plan_two_title = get_field('student_signup_plan_two_title');
+$student_signup_plan_two_subtitle = get_field('student_signup_plan_two_subtitle');
+$student_signup_plan_two_price = get_field('student_signup_plan_two_price');
+$student_signup_plan_two_bottom_text = get_field('student_signup_plan_two_bottom_text');
+$student_signup_plan_two_membership_link = get_field('student_signup_plan_two_memebership_link');
 ?>
 
 <section id="student-sign-up" class="bg-white lg:pt-36">
