@@ -7,19 +7,19 @@
 
                 while( have_rows('parent_cards') ) : the_row();
                     
-                    $student_card_background_image = get_sub_field('student_card_background_image');
-                    $student_card_title = get_sub_field('student_card_title');
-                    $student_card_subtitle = get_sub_field('student_card_subtitle');
-                    $student_card_link = get_sub_field('student_card_link');
+                    $student_card_background_image = get_sub_field('parent_card_background_image');
+                    $parent_card_title = get_sub_field('parent_card_title');
+                    $parent_card_subtitle = get_sub_field('parent_card_subtitle');
+                    $parent_card_link = get_sub_field('parent_card_link');
                 ?>
 
-                <a href="<?php echo $student_card_link['url']; ?>" class="column lg:col-span-6 student-card">
-                    <div class="cover" style="background-image: url('<?php echo $student_card_background_image['url']; ?>');">
-                        <p class="headingFour"><?php echo $student_card_title; ?></p>
+                <a href="<?php echo $parent_card_link['url']; ?>" class="column lg:col-span-6 student-card">
+                    <div class="cover" style="background-image: url('<?php echo $parent_card_background_image['url']; ?>');">
+                        <p class="headingFour"><?php echo $parent_card_title; ?></p>
                     </div>
                     <div class="reveal">
-                        <p class="headingFour"><?php echo $student_card_title; ?></p>
-                        <p class="bodyText text-white mb-0"><?php echo $student_card_subtitle; ?></p>
+                        <p class="headingFour"><?php echo $parent_card_title; ?></p>
+                        <p class="bodyText text-white mb-0"><?php echo $parent_card_subtitle; ?></p>
                         <p class="subtitleOne uppercase leading-[0] inline-flex items-baseline justify-center gap-x-4 mb-6">Learn More<img src="<?php echo get_stylesheet_directory_uri();?>/img/white-arrow-button.svg"></p>
                     </div>    
                 </a>
@@ -47,7 +47,7 @@
             if(have_rows('parent_cards')) {
 
                 while( have_rows('parent_cards') ) : the_row();
-                    $student_card_title = get_sub_field('student_card_title');
+                    $parent_card_title = get_sub_field('parent_card_title');
                     $student_card_subtitle = get_sub_field('student_card_subtitle');
                     $student_card_link = get_sub_field('student_card_link');
 
