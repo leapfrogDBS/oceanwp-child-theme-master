@@ -2,17 +2,17 @@
 $student_signup_title = get_field('student_signup_title');
 $student_signup_subtitle = get_field('student_signup_subtitle');
 
-$student_signup_plan_one_title = get_field('student_signup_plan_one_title_parent');
+$student_signup_plan_one_title = get_field('student_signup_plan_one_title');
 $student_signup_plan_one_subtitle = get_field('student_signup_plan_one_subtitle');
 $student_signup_plan_one_price = get_field('student_signup_plan_one_price');
 $student_signup_plan_one_bottom_text = get_field('student_signup_plan_one_bottom_text');
-$student_signup_plan_one_gift_link = get_field('student_signup_plan_one_gift_link');
+$student_signup_plan_one_gift_link = get_field('student_signup_plan_one_link');
 
-$student_signup_plan_two_title = get_field('student_signup_plan_two_title_parent');
+$student_signup_plan_two_title = get_field('student_signup_plan_two_title');
 $student_signup_plan_two_subtitle = get_field('student_signup_plan_two_subtitle');
 $student_signup_plan_two_price = get_field('student_signup_plan_two_price');
 $student_signup_plan_two_bottom_text = get_field('student_signup_plan_two_bottom_text');
-$student_signup_plan_two_gift_link = get_field('student_signup_plan_two_gift_link');
+$student_signup_plan_two_gift_link = get_field('student_signup_plan_two_link');
 ?>
 
 <section id="parent-sign-up" class="bg-white lg:pt-36">
@@ -25,7 +25,7 @@ $student_signup_plan_two_gift_link = get_field('student_signup_plan_two_gift_lin
                 <?php } ?>
                 
                 <?php if($student_signup_subtitle) { ?>
-                    <p class="bodyText text-[#8A8799] text-center"><?php echo $student_signup_subtitle; ?></p>
+                    <p class="bodyText text-[#8A8799] text-center max-w-2xl mx-auto"><?php echo $student_signup_subtitle; ?></p>
                 <?php } ?>
 
             </div>
