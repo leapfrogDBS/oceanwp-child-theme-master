@@ -21,7 +21,7 @@ $student_whats_on_button_link = get_field('student_whats_on_button_link');
                     
                     <?php if($student_whats_on_button_text && $student_whats_on_button_link) { ?>
                         <div class="inline-block">
-                            <a href="<?php echo $student_whats_on_button_link['url']; ?>" class="elementor-animation-pulse ctaButton bg-white text-purple"><?php echo $student_whats_on_button_text; ?><img src="<?php echo get_stylesheet_directory_uri();?>/img/purple-arrow-button.svg"></a>
+                            <a href="<?php echo $student_whats_on_button_link['url']; ?>" class="elementor-animation-pulse ctaButton bg-white text-purple"><?php echo $student_whats_on_button_text; ?><img src="<?php echo get_stylesheet_directory_uri();?>/img/purple-arrow-button.svg" target="<?php echo $student_whats_on_button_link['target']; ?>"></a>
                         </div>
                     <?php } ?>
                 

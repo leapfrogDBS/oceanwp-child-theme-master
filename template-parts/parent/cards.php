@@ -13,7 +13,7 @@
                     $parent_card_link = get_sub_field('parent_card_link');
                 ?>
 
-                <a href="<?php echo $parent_card_link['url']; ?>" class="column lg:col-span-6 student-card">
+                <a href="<?php echo $parent_card_link['url']; ?>" class="column lg:col-span-6 student-card" target="<?php echo $parent_card_link['target']; ?>">
                     <div class="cover" style="background-image: url('<?php echo $parent_card_background_image['url']; ?>');">
                         <p class="headingFour"><?php echo $parent_card_title; ?></p>
                     </div>
@@ -48,21 +48,21 @@
 
                 while( have_rows('parent_cards') ) : the_row();
                     $parent_card_title = get_sub_field('parent_card_title');
-                    $student_card_subtitle = get_sub_field('student_card_subtitle');
-                    $student_card_link = get_sub_field('student_card_link');
+                    $parent_card_subtitle = get_sub_field('parent_card_subtitle');
+                    $parent_card_link = get_sub_field('parent_card_link');
 
                     ?>
                     <!-- What is term -->
                     <div class="transition rounded-xl shadow-2xl text-charcoal px-5 pt-8 pb-0 mb-4">
                         <!-- header -->
                         <div class="accordion-header cursor-pointer transition flex space-x-5 items-start h-16">
-                            <p class="headingFour leading-tight flex-1"><?php echo $student_card_title; ?></p>
+                            <p class="headingFour leading-tight flex-1"><?php echo $parent_card_title; ?></p>
                             <i class="fas fa-plus"></i>
                         </div>
                         <!-- Content -->
                         <div class="accordion-content pt-0 overflow-hidden" style="max-height: 0px">
-                            <p class="bodyText text-white"><?php echo $student_card_subtitle; ?></p>                       
-                            <a href="<?php echo $student_card_link['url']; ?>" class="text-base font-normal  text-white uppercase leading-[0] inline-flex items-baseline justify-center gap-x-4 mb-6">Learn More<img src="<?php echo get_stylesheet_directory_uri();?>/img/white-arrow-button.svg"></a>
+                            <p class="bodyText text-white"><?php echo $parent_card_subtitle; ?></p>                       
+                            <a href="<?php echo $parent_card_link['url']; ?>" class="text-base font-normal  text-white uppercase leading-[0] inline-flex items-baseline justify-center gap-x-4 mb-6" target="<?php echo $parent_card_link['target']; ?>">Learn More<img src="<?php echo get_stylesheet_directory_uri();?>/img/white-arrow-button.svg"></a>
                         </div>
                     </div> 
                    
